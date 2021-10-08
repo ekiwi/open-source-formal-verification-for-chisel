@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # load oss cad tools
-source ~/oss-cad-suite/environment
+# source ~/oss-cad-suite/environment
 
 exec "$@"
