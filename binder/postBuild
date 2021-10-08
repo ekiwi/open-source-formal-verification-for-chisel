@@ -5,7 +5,6 @@ set -e
 # Install OSS-CAD-Suite
 wget -q https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2021-09-23/oss-cad-suite-linux-x64-20210923.tgz
 tar -xf oss-cad-suite-linux-x64-20210923.tgz
-echo -e "\n# Load OSS CAD Suite\nsource ~/oss-cad-suite/environment\n" >> .bashrc
 
 
 # Install coursier
