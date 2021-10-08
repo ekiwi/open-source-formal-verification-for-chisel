@@ -1,8 +1,6 @@
-interp.repositories() ::: List(
+interp.repositories() ++= Seq(
   coursierapi.MavenRepository.of("https://oss.sonatype.org/content/repositories/snapshots")
 )
-
-@
 
 interp.configureCompiler(x => x.settings.source.value = scala.tools.nsc.settings.ScalaVersion("2.13.3"))
 
