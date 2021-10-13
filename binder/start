@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # load oss cad tools
-# source ~/oss-cad-suite/environment
+export PATH=~/oss-cad-suite/bin:$PATH
 
 exec "$@"
